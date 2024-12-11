@@ -51,7 +51,13 @@ To run the [comparison notebook](examples/comparison_with_rapid_models.ipynb), y
 
 ## Usage
 
-The package provides a custom `MultiOutputKernel` module that wraps one or more base kernels, producing a
+Usage is similar to the official [Multitask GP Regression](https://docs.gpytorch.ai/en/latest/examples/03_Multitask_Exact_GPs/Multitask_GP_Regression.html)
+example.
+
+The package provides a custom `MultiOutputKernel` module that is used similarly to `MultitaskKernel`, and a custom
+`FixedNoiseMultiOutputGaussianLikelihood` that is used similarly to `MultitaskGaussianLikelihood`. The
+`MultiOutputKernel` wraps one or more base kernels, producing a joint covariance matrix for the outputs. The
+`FixedNoiseMultiOutputGaussianLikelihood` allows for fixed noise to be added to the joint covariance matrix.
 
 ```python
 import gpytorch
