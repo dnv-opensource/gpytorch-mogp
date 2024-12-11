@@ -34,7 +34,7 @@ If you want to run the [examples](examples), you should install the package from
 repository:
 
 ```shell
-git clone https://github.com/magkri/gpytorch-mogp.git
+git clone https://github.com/dnv-opensource/gpytorch-mogp.git
 ```
 
 Then install the package with the `examples` dependencies:
@@ -211,7 +211,7 @@ Contributions are welcome! Please create an issue or a pull request if you have 
 To get started contributing, clone the repository:
 
 ```shell
-git clone https://github.com/magkri/gpytorch-mogp.git
+git clone https://github.com/dnv-opensource/gpytorch-mogp.git
 ```
 
 Then install the package in editable mode with `all` dependencies:

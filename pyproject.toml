@@ -35,9 +35,9 @@ examples = [
 all = ["gpytorch-mogp[dev, examples]"]
 
 [project.urls]
-Documentation = "https://github.com/magkri/gpytorch-mogp#readme"
-Issues = "https://github.com/magkri/gpytorch-mogp/issues"
-Source = "https://github.com/magkri/gpytorch-mogp"
+Documentation = "https://github.com/dnv-opensource/gpytorch-mogp#readme"
+Issues = "https://github.com/dnv-opensource/gpytorch-mogp/issues"
+Source = "https://github.com/dnv-opensource/gpytorch-mogp"
 
 [tool.ruff]
 src = ["src"]  # When resolving imports, packages in `src` are considered first-party imports (project root is default)
